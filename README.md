@@ -1,8 +1,79 @@
-# React + Vite
+# The Wild Oasis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**The Wild Oasis** is a hotel booking application that allows admins to manage cabin bookings, additional options like breakfast, and the duration of stays. The app includes a dark mode, statistics, and user authentication for secure access.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contact](#contact)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Cabin Booking Management**: Admins can book cabins on behalf of users with or without breakfast.
+- **Customizable Stays**: Admins can specify the number of days for the stay.
+- **Checkout and Payment**: Admins can manage the billing and payment process upon checkout.
+- **Dark Mode**: The application supports a dark mode for better user experience in low-light conditions.
+- **Statistics**: Provides insights and statistics about bookings.
+- **User Authentication**: Secure login and registration functionality for admins.
+- **Admin Settings**: Admins can set breakfast and cabin prices.
+
+## Technologies Used
+- **Frontend**: ReactJS, React Router, Context API, Styled Components
+- **State Management**: React Query
+- **Backend**: Supabase (for authentication and database)
+- **Styling**: Styled Components
+
+## Getting Started
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+- Node.js and npm installed on your local machine.
+- An account with Supabase for backend services.
+
+### Installation
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/omarMo7amed/the-wild-oasis.git
+    cd the-wild-oasis
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3. **Set up Supabase**:
+    - Create a new project in Supabase.
+    - Note down the Supabase URL and the public API key.
+    - Create a `.env` file in the root directory and add your Supabase credentials:
+    ```env
+    REACT_APP_SUPABASE_URL=your-supabase-url
+    REACT_APP_SUPABASE_ANON_KEY=your-supabase-anon-key
+    ```
+
+4. **Run the application**:
+    ```bash
+    npm run dev
+    ```
+
+## Usage
+- **Booking Management**: Admins can log in and manage bookings, including adding new bookings, updating existing ones, and handling payments.
+- **Admin Settings**: Admins can set the prices for breakfast and cabins through the settings page.
+- **Statistics**: View the statistics to get insights into the bookings.
+
+## Screenshots
+Include some screenshots of your app to show the UI and its features.
+
+![Login Page](screenshots/login.png)
+![Home Page](screenshots/home.png)
+![Cabins Page](screenshots/cabins.png)
+![Bookings Page](screenshots/bookings.png)
+![Admin Settings](screenshots/settings.png)
+
+## Contact
+If you have any questions or feedback, feel free to contact me:
+- **Email**: omarmohamed827@gmail.com
+- **GitHub**: [omarMo7amed](https://github.com/omarMo7amed)
