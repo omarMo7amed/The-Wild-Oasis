@@ -6,7 +6,6 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Contact](#contact)
@@ -32,27 +31,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 ### Prerequisites
 - Node.js and npm installed on your local machine.
 - An account with Supabase for backend services.
-
-### Installation
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/omarMo7amed/the-wild-oasis.git
-    cd the-wild-oasis
-    ```
-
-2. **Install dependencies**:
-    ```bash
-    npm install
-    ```
-
-3. **Set up Supabase**:
-    - Create a new project in Supabase.
-    - Note down the Supabase URL and the public API key.
-    - Create a `.env` file in the root directory and add your Supabase credentials:
-    ```env
-    REACT_APP_SUPABASE_URL=your-supabase-url
-    REACT_APP_SUPABASE_ANON_KEY=your-supabase-anon-key
-    ```
 
 4. **Run the application**:
     ```bash
