@@ -2,7 +2,7 @@
 
 TThe Wild Oasis is a hotel booking application that allows admins to manage cabin bookings, additional options like breakfast, and the duration of stays. The app includes a dark mode, statistics, and user authentication for secure access.
 
-#Table of Contents
+## Table of Contents
 Features
 Technologies Used
 Getting Started
