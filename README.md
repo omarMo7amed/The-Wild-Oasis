@@ -47,6 +47,8 @@ Include some screenshots of your app to show the UI and its features.
 ![Admin Settings](screenshots/settings.png)
 
 ## Contact
-If you have any questions or feedback, feel free to contact me:
+If you have any questions or feedback, feel free to reach out:
+
 - **Email**: omarmohamed827@gmail.com
-- **GitHub**: [omarMo7amed](https://github.com/omarMo7amed)
+- **LinkedIn**: [Omar Mohamed](https://www.linkedin.com/in/omar-mohamed-611773292)
+
